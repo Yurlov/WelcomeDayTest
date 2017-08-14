@@ -4,8 +4,6 @@ import com.viktor.yurlov.creator.WMCreator;
 import com.viktor.yurlov.messages.Message;
 
 import java.time.LocalDateTime;
-import java.util.Date;
-import java.util.logging.Logger;
 
 /**
  * Created by Viktor on 14.08.17.
