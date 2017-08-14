@@ -2,7 +2,7 @@ package com.viktor.yurlov;
 
 import com.viktor.yurlov.creator.WMCreator;
 import com.viktor.yurlov.messages.Message;
-import org.apache.log4j.Logger;
+import java.util.logging.Logger;
 import java.time.LocalDateTime;
 
 /**
