@@ -1,6 +1,6 @@
 package com.viktor.yurlov.creator;
 import com.viktor.yurlov.messages.*;
-import org.apache.log4j.Logger;
+import java.util.logging.Logger;
 
 /**
  * Created by Viktor on 14.07.17.
@@ -21,7 +21,7 @@ public class WMCreator implements MessageCreator {
             if ((hours == 23) || ((hours < 6) && (hours >= 0))) {
                 return new NightMessage();
             } else {
-                LOGGER.warn("Invalid time:  "+hours);
+                LOGGER.warning("Invalid time:  "+hours);
                 return null;
             }
         }
