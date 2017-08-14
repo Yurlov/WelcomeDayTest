@@ -10,6 +10,7 @@ import java.time.LocalDateTime;
  */
 
 public class Main {
+    private static final Logger LOGGER = Logger.getLogger(String.valueOf(Main.class));
     public static void main(String[] args) {
         WMCreator WMCreator = new WMCreator();
         Message msg = WMCreator.getWelcomeMessage(LocalDateTime.now().getHour());
