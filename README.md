@@ -1,2 +1,3 @@
 # WelcomeDayTest
-https://circleci.com/gh/Yurlov/WelcomeDayTest/tree/master
+https://circleci.com/gh/Yurlov/WelcomeDayTest/tree/master.svg?style=svg
+
